@@ -6,4 +6,4 @@ faiss-cpu
 python-dotenv
 nest_asyncio
 rich==13.9.4
-
+wikipedia
