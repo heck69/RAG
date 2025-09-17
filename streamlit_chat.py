@@ -1,4 +1,7 @@
 import streamlit as st
+if st.button("Exit"):
+    st.session_state.clear()
+    st.rerun()
 from langchain_community.document_loaders import WikipediaLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
